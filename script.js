@@ -6,9 +6,23 @@ function canvasfunc() {
     mycanvas.fillRect(50, 25, 100, 100);
 }
 
+//function testfunc() {
+//     var scrollpos = $(window).scrollTop()
+//     var currelement = onmouseover()
+//     if (scrollpos > window.innerHeight/2) {
+//         
+//     }
+//}
+
 
 $("document").ready(function () {
     "use strict";
+//    $("a.animation[about]").addClass("active");
+//    $('.animation[href="#about"]').trigger("click");
+    
+    $(function () {
+        $('.animation[href="#about"]').trigger("click");
+    });
     
     //to make page scroll to appropriate section when navbar link is clicked
     $(".animation").click(function (event) {
@@ -23,6 +37,7 @@ $("document").ready(function () {
             
             $('html, body').stop().animate({
                 scrollTop: $(target).offset().top
+//                scrollTop: $(target).offset().top - $("#navbar").innerHeight()
             }, 1000);
         }
     });
