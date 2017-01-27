@@ -25,6 +25,10 @@ p {
     font-style: italic;
 }
 
+.hyp:hover {
+    font-style: italic;
+}
+
 ul#navbar {
     font-family: 'Droid Sans Mono';
     list-style-type: none;
