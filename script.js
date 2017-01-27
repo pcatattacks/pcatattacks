@@ -1,19 +1,5 @@
 /*global $*/
 
-//function canvasfunc() {
-//    "use strict";
-//    var mycanvas = $("mycanvas").getContext("2d");
-//    mycanvas.fillRect(50, 25, 100, 100);
-//}
-
-//function testfunc() {
-//     var scrollpos = $(window).scrollTop()
-//     var currelement = onmouseover()
-//     if (scrollpos > window.innerHeight/2) {
-//         
-//     }
-//}
-
 $("document").ready(function () {
     "use strict";
 //    $("a.animation[about]").addClass("active");
@@ -25,15 +11,15 @@ $("document").ready(function () {
     });
     
     //to make about button interactive
-//    $("mybutton").on('click', function () {
-//        console.log("button is responding");
-//        $("dynamicabout").removeClass("show");
-//    });
-    
-    document.getElementById('mybutton').addEventListener('click', function(){
-       console.log("button event is responding");
-        document.getElementById('dynamicabout').r
-    });
+    // $("mybutton").on('click', function () {
+    //     console.log("button is responding");
+    //     $("dynamicabout").removeClass("show");
+    // });
+    // document.getElementById("mybutton").onclick = function() {
+    //     console.log("About button is responding.");
+    //     document.getElementById("dynamicabout").className = "";
+    //     console.log(document.getElementById("dynamicabout").className);
+    // }
     
     //to make close button hide dynamicabout div
     $("closebutton").click(function () {
@@ -58,29 +44,4 @@ $("document").ready(function () {
         }
     });
     
-    //if ()
-   
-    
-    
-    
-//    $(window).scroll(function () {
-//        $("#about").animate(
-//            $(this).fadeOut(50)
-//        );
-//    });
-//    
-//    $('a').onclick(function () {
-//        $(this).animate({fontSize: "+= 6px"});
-//    });
-//    
-//    to add brackets when link is active
-//    $(".animation").onclick(function () {
-//        $(this).addClass(".active");
-//    });
 });
-
-//$("#button").click(function() {
-//    $('html, body').animate({
-//        scrollTop: $("#myDiv").offset().top
-//    }, 2000);
-//});
